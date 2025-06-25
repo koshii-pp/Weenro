@@ -339,7 +339,7 @@ TextureImporter:
       213: -3972241301130527849
     second: walkUp0015
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -356,9 +356,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -367,12 +370,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -390,10 +393,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -421,6 +429,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Nintendo Switch
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2796,9 +2828,121 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      idle0013: 6392286952734070705
+      idle0024: -4348815039681986955
+      runDown0002: 385223832160600938
+      idle0000: -3017419281794174750
+      idle0025: -6759096324594356408
+      idle0031: -3721807301778212335
+      runDown0004: -7830616534467222080
+      idle0005: -2847304628930026544
+      runDown0001: -4522250347110505277
+      idle0018: 1805068759961035111
+      walkDown0000: 5513829845831800242
+      idle0032: -4513795487285666125
+      walk0007: -7927183834544994445
+      runDown0000: 5146818034118621463
+      runDown0007: -5644373615824190800
+      walk0001: -1476034954002083627
+      idle0002: 6807293321393954518
+      walkUp0008: -6633558438501788077
+      idle0027: 2005098560852998680
+      walk0005: 922404396577687447
+      run0000: 7319737683187132998
+      runUp0003: -7719420862734939684
+      runUp0006: 3378736855221309929
+      walkDown0009: -5544353375574305086
+      idle0017: -8241747009942688959
+      idle0029: -5279759429536173179
+      walk0014: -3448696970088973267
+      runUp0002: 8335477513405715517
+      idle0010: 5690401257536018324
+      walk0013: 1334186475819782862
+      idle0003: 4901205273184605283
+      walkDown0002: -3081594942301421970
+      idle0037: -4796288774228716275
+      idle0020: 5245786525186169809
+      walkDown0015: 4077386447594419131
+      idle0021: 3915747984269948961
+      walkDown0011: -1840703996299103916
+      idle0012: 8295693809899816380
+      walkDown0008: -1285230856981579573
+      walk0000: 4297375554281267808
+      walkUp0001: 2859982489567169784
+      walkUp0014: 6528783210892005227
+      walkDown0001: 5593886342172914194
+      walkUp0013: -2131067257173605462
+      idle0022: 619490141485126539
+      walkUp0009: -3525083732168592983
+      idle0004: 987604584135355787
+      walkDown0007: -7342007992057331814
+      idle0006: 5937333991934511538
+      idle0009: 8140600576991875299
+      walk0009: 5830961573323166577
+      runUp0000: -8207198135730155132
+      run0001: 6688780661324505807
+      idle0033: -7241226987846714267
+      walkDown0004: 4109846161911490760
+      idle0036: 2666142407842841759
+      runUp0001: -7838481871983921307
+      runUp0004: -7533734719080368828
+      run0005: -8360336991673969159
+      idle0011: 8436909963288274867
+      walkUp0003: 5934454275968190491
+      walkUp0004: 4213198569573177378
+      run0007: -844216479045598532
+      run0002: 4601007091923989808
+      walk0003: 857049614211368511
+      walk0004: 5009859243257443060
+      idle0007: -3927145778121247477
+      walkDown0003: 5586579408769000686
+      runUp0005: 427386078476731513
+      walk0015: 1140277726735873028
+      walkDown0006: 8291268469232054129
+      idle0038: 3019681412332538368
+      walkDown0005: 4038218000198156293
+      idle0035: -4060662408129630383
+      idle0023: -625540330012168723
+      walkDown0012: -3332561127119852100
+      idle0015: -4761148656338492246
+      idle0030: -7173621228437978573
+      walkUp0012: -3839536370062646015
+      run0003: -3624693819535147726
+      idle0016: -493477001518198444
+      walk0010: 8443811011042500483
+      idle0039: 2939887890734076716
+      idle0014: 8311588623896146631
+      idle0034: 7661441520702513318
+      run0004: -8269450898201501281
+      walkUp0002: -173049170154941482
+      idle0019: -5359122390278429541
+      walkUp0010: 8808355339302136834
+      walkDown0014: -6936714398132551206
+      runDown0006: 4305358234608236468
+      walkUp0011: -6979870317783824996
+      run0006: -4118523699107300260
+      walkUp0015: -3972241301130527849
+      runUp0007: -8312581966534892612
+      idle0001: 3217644904375712336
+      idle0028: 5406566906972530312
+      walk0011: -7335294317052085142
+      walkDown0010: 3755069181595783391
+      idle0026: 8575813441750942055
+      walkUp0000: 8714165079838388589
+      idle0008: -6368946527799150040
+      runDown0003: 2578569151332906575
+      walkUp0007: 6876598286113789934
+      runDown0005: -5522329448086123489
+      walk0006: 6027404982818405283
+      walkDown0013: -8165480320977104053
+      walk0002: -7130029369234243156
+      walk0008: 6188813226103052543
+      walk0012: 8035755237795834188
+      walkUp0005: 3382476237637573133
+      walkUp0006: 8498258076735568596
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
